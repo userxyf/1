@@ -10,4 +10,6 @@ git reset HEAD .: 移除暂存区所有的文件
 git commit -a -m "描述信息"：直接工作区到git仓库 跳过暂存区
 git em -f 文件名: 从git工作区和仓库同时移除文件
 git em --cached 文件名：从仓库移除文件，保留工作区文件
+git log
+git branch: 查看所有的分支列表
 其余请看ppt
