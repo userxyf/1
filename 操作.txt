@@ -12,4 +12,8 @@ git em -f 文件名: 从git工作区和仓库同时移除文件
 git em --cached 文件名：从仓库移除文件，保留工作区文件
 git log
 git branch: 查看所有的分支列表
+git branch 分支名称: 创建分支（默认还是在main分支）
+git checkout 分支名称: 切换分支
+git checkout -b 分支名称: 创建新分支并且切换到新分支
+合并分支：先切换到main分支， git merge 分支名称，进行合并
 其余请看ppt
